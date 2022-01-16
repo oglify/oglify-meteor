@@ -10,7 +10,7 @@ Npm.depends({
   "@babel/runtime": "7.16.7",
   react: "17.0.2",
   "react-dom": "17.0.2",
-  "@oglify/core": "^0.0.1",
+  "@oglify/core": "0.0.1",
 });
 
 // keep github private until we stop using full filepath for dependency
