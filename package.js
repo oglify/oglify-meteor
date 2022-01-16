@@ -24,6 +24,6 @@ Package.onUse(function (api) {
 Package.onTest(function (api) {
   api.use(["ecmascript", "oglify:react@0.0.1", "meteor"]);
   api.use("tinytest");
-  api.use("oglify");
+  api.use("oglify:oglify");
   api.mainModule("oglify-tests.js");
 });
