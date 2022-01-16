@@ -7,12 +7,13 @@ Package.describe({
 });
 
 Npm.depends({
-  "oglify-core": "file://./../oglify-core",
+  "@oglify/core":
+    "file://C:/Users/pirsk/pCloud Sync/Projects/Heptahedron Games/OGLify/oglify-core",
 });
 
 Package.onUse(function (api) {
   api.versionsFrom("2.5.3");
-  api.use(["ecmascript", "oglify-react"]);
+  api.use(["ecmascript", "react"]);
   api.mainModule("oglify.js");
 });
 
